@@ -104,6 +104,7 @@ export default function InputField(props) {
                     <Text style={{ marginLeft: 10, color: "red", marginTop: 10 }} >{props.footersubtext}</Text>
                 </TouchableOpacity>
             </View>
+            <Text style={{ color: '#8D8B8B', position: 'absolute', bottom: 0, marginBottom: 20, fontSize: 10 }} >Developed By Yati</Text>
         </>
     )
 }
